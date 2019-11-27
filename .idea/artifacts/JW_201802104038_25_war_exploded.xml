@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JW_201802104038_25:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JW_201802104038_25_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JW_201802104038_25/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JW_201802104038_25" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/mysql-connector-java-3.1.14-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/fastjson-1.2.62.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

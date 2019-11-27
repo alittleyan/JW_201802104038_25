@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "c54758ae-93ac-42b3-82a4-3bf3784a23a0",
+		"name": "Department",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET http://49.235.33.50:8080/bysj1838/department.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST http://49.235.33.50:8080/bysj1838/department.ctl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://49.235.33.50:8080/bysj1838/degree.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"235",
+						"33",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"bysj1838",
+						"degree.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT http://49.235.33.50:8080/bysj1838/department.ctl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://49.235.33.50:8080/bysj1838/degree.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"235",
+						"33",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"bysj1838",
+						"degree.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL http://49.235.33.50:8080/bysj1838/department.ctl",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://49.235.33.50:8080/bysj1838/degree.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"235",
+						"33",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"bysj1838",
+						"degree.ctl"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
